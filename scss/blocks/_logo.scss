@@ -1,0 +1,11 @@
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+}
+
+@media(max-width: 600px) {
+    .logo__text {
+        display: none;
+    }
+}

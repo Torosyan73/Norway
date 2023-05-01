@@ -1,0 +1,46 @@
+.title-1 {
+    font-weight: 700;
+    font-size: 250px;
+    line-height: 1.22;
+    background: linear-gradient(21deg, rgb(160, 160, 160) -3.87%, rgb(255 255 255 / 0%) 36.89%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+@media(max-width: 1600px) {
+    .title-1 {
+        font-size: 160px;
+    }
+}
+
+@media(max-width: 1500px) {
+    .title-1 {
+        font-size: 140px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .title-1 {
+        font-size: 110px;
+    }
+}
+
+@media(max-width: 992px) {
+    .title-1 {
+        font-size: 90px;
+    }
+}
+
+@media(max-width: 768px) {
+    .title-1 {
+        font-size: 60px;
+    }
+}
+
+@media(max-width: 600px) {
+    .title-1 {
+        font-size: 45px;
+    }
+}

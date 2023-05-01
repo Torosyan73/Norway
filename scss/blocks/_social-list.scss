@@ -1,0 +1,12 @@
+.social-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 26px;
+}
+
+@media(max-width: 768px) {
+    .social-list {
+        row-gap: 15px;
+    }
+}
